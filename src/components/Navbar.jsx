@@ -44,7 +44,7 @@ const Navbar = () => {
                 <span className="badge"><Link to='/editProfile'>Edit</Link></span>
               </Link>
             </li>
-            <li><Link>Settings</Link></li>
+            <li><Link to="/changePassword">Change Password</Link></li>
             <li ><Link onClick={handleLogout}>Logout</Link></li>
           </ul>
         </div>

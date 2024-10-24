@@ -9,6 +9,7 @@ import EditProfile from "./components/EditProfile";
 import Signup from "./components/Signup";
 import Connections from "./components/Connections";
 import Requests from "./components/Requests";
+import ChangePassword from "./components/ChangePassword";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
               <Route path="/editProfile" element = {<EditProfile />} />
               <Route path="/connections" element = {<Connections />} />
               <Route path="/requests" element = {<Requests />} />
+              <Route path="/changePassword" element = {<ChangePassword />} />
             </Route>
           </Routes>
         </BrowserRouter>
