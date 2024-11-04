@@ -17,7 +17,7 @@ const Body = () => {
             
             dispatch(addUser(res.data));
         } catch (err) {
-            if(err.status === 401 || err.status === 400){
+            if(err.status === 401 || err.status === 400 || err.status === 404){
                 nevigate("/login")
             }
 
